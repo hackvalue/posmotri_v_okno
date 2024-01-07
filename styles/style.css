@@ -16,6 +16,7 @@ html {
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   background-color: #1b1919;
+  display: grid;
 }
 
 h1,
@@ -41,6 +42,41 @@ ol {
 
 /*MAIN*/
 
+
 .content {
+  justify-self: center;
+  align-self: center;
+  background-color: aqua;
+  display: flex;
+  align-items: flex-end;
+  gap: 30px;
+  inline-size: 1140px;
+  padding: 133px 30px;
+
+}
+
+.search-form {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
   
 }
+
+.result__video {
+
+}
+
+
+.content__details {
+ inline-size: 100%;
+ block-size: 100%;
+}
+
+
+.content__list {
+  block-size: 298px;
+  overflow: scroll;
+  
+}
+
+
