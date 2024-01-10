@@ -40,7 +40,7 @@ ol {
 
 
 
-/*MAIN*/
+/*Main*/
 
 .content {
   justify-self: center;
@@ -129,9 +129,9 @@ ol {
   text-transform: uppercase;
   }
   
-  .title .content__accent {
-    color: #545050;
-  }
+.title .content__accent {
+  color: #545050;
+}
 
 .content__card-link {
   display: block;
@@ -164,7 +164,9 @@ text-transform: uppercase;
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
   white-space: nowrap;
-} 
+}
+
+/*Decoration*/
 
 .search-form__fieldset {
   border: none;
@@ -236,10 +238,7 @@ text-transform: uppercase;
 inline-size: 100%;
 }
 
-
-
-
-/*CONDITIONING*/
+/*Conditions*/
 
 .search-form__label:has(:focus-visible) {
   outline: solid 1px white;
